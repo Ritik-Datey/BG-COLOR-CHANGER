@@ -8,7 +8,7 @@ function App() {
   return (
     <div >
       <button onClick={handleButtonClick} style={{backgroundColor:'green'}} value='green'>Green</button>
-      <button onClick={handleButtonClick} style={{backgroundColor:'red'}}  value='red'>Red</button>
+      <button onClick={handleButtonClick} style={{backgroundColor:'olive'}}  value='olive'>Olive</button>
       <button onClick={handleButtonClick} style={{backgroundColor:'yellow'}}  value='yellow'>Yellow</button>
       <button onClick={handleButtonClick} style={{backgroundColor:'orange'}}  value='orange'>Orange</button>
       <button onClick={handleButtonClick} style={{backgroundColor:'purple'}}  value='purple'>Purple</button>
