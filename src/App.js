@@ -6,7 +6,8 @@ function App() {
     document.body.style.backgroundColor=element.target.value;
   }
   return (
-    <div >
+    <div>
+      <div id="buttons">
       <button onClick={handleButtonClick} style={{backgroundColor:'green'}} value='green'>Green</button>
       <button onClick={handleButtonClick} style={{backgroundColor:'olive'}}  value='olive'>Olive</button>
       <button onClick={handleButtonClick} style={{backgroundColor:'yellow'}}  value='yellow'>Yellow</button>
@@ -15,6 +16,7 @@ function App() {
       <button onClick={handleButtonClick} style={{backgroundColor:'gray'}}  value='gray'>Gray</button>
       <button onClick={handleButtonClick} style={{backgroundColor:'black', color:'white'}}  value='black'>Black</button>
       <button onClick={handleButtonClick} style={{backgroundColor:'pink'}}  value='pink'>Pink</button>
+    </div>
     </div>
   );
 }
